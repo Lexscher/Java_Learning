@@ -66,11 +66,11 @@ public class Main {
     }
         // Part 2
     public static int calculateHighScorePosition(int playerScore) {
-        if ( playerScore >= 1000 ) {
+        if (playerScore >= 1000) {
             return 1;
-        } else if ( playerScore >= 500) {
+        } else if (playerScore >= 500) {
             return 2;
-        } else if ( playerScore >= 100) {
+        } else if (playerScore >= 100) {
             return 3;
         } else {
             return 4;
@@ -82,17 +82,32 @@ public class Main {
         System.out.println(playerName + " managed to get into position " + highScorePosition + " on the high score table.");
     }
 
-    public static int dalculateHighScorePositionSolution(int playerScore) {
+    public static int updatedDalculateHighScorePositionSolution(int playerScore) {
 
-        if(playerScore >= 1000) {
-            return 1;
-        } else if (playerScore >= 500 && playerScore < 1000) {
-            return 2;
-        } else if (playerScore >= 100 && playerScore < 500) {
-            return 3;
-        } else {
-            return 4;
+//        if(playerScore >= 1000) {
+////            return 1;
+            // We don't need the extra conditional, since it only gets to this part if the conditional of this if statement is false.
+////        } else if (playerScore >= 500) {
+////            return 2;
+////        } else if (playerScore >= 100) {
+////            return 3;
+////        } // we don't need that extra else statement
+////
+////        return 4;
+        
+        // here's another way to do things, this reduces the amounts of return statements.
+
+        int position = 4; // assuming position 4 will be returned.
+
+        if (playerScore >= 1000) {
+            position = 1;
+        } else if (playerScore >= 500) {
+            position = 2;
+        } else if (playerScore >= 100) {
+            position = 3
         }
+
+        return position;
 
     }
 

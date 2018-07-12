@@ -15,8 +15,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/alexanderschelchere/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="270">
+              <caret line="96" column="8" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -31,9 +31,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="736" />
+    <option name="x" value="755" />
     <option name="y" value="22" />
-    <option name="width" value="703" />
+    <option name="width" value="684" />
     <option name="height" value="797" />
   </component>
   <component name="ProjectView">
@@ -85,7 +85,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="736" y="22" width="703" height="797" extended-state="0" />
+    <frame x="755" y="22" width="684" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -156,8 +156,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/alexanderschelchere/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="270">
+          <caret line="96" column="8" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
         </state>
       </provider>
     </entry>
