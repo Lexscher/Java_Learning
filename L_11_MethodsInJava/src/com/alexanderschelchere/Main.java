@@ -83,7 +83,7 @@ public class Main {
     }
 
     public static int updatedDalculateHighScorePositionSolution(int playerScore) {
-
+            // Bug fixes
 //        if(playerScore >= 1000) {
 ////            return 1;
             // We don't need the extra conditional, since it only gets to this part if the conditional of this if statement is false.
@@ -94,7 +94,7 @@ public class Main {
 ////        } // we don't need that extra else statement
 ////
 ////        return 4;
-        
+
         // here's another way to do things, this reduces the amounts of return statements.
 
         int position = 4; // assuming position 4 will be returned.
