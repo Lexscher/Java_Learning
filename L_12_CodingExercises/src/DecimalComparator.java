@@ -2,7 +2,7 @@ public class DecimalComparator {
 
     public static void main(String[] arg) {
         areEqualByThreeDecimalPlaces(-3.1756, -3.1767);
-        areEqualByThreeDecimalPlaces(4.0, 5.0)
+        areEqualByThreeDecimalPlaces(4.0, 5.0);
     }
 
     // Write a method areEqualByThreeDecimalPlaces with two parameters of type double.
