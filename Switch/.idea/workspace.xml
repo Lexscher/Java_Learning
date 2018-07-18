@@ -21,11 +21,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NumberInWord.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/alexanderschelchere/NumberInWord.java">
+      <file leaf-file-name="NumberOfDaysInMonth.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/alexanderschelchere/NumberOfDaysInMonth.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+            <state relative-caret-position="270">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -45,6 +45,7 @@
         <option value="$PROJECT_DIR$/src/com/alexanderschelchere/Main.java" />
         <option value="$PROJECT_DIR$/src/com/alexanderschelchere/DayOfTheWeek.java" />
         <option value="$PROJECT_DIR$/src/com/alexanderschelchere/NumberInWord.java" />
+        <option value="$PROJECT_DIR$/src/com/alexanderschelchere/NumberOfDaysInMonth.java" />
       </list>
     </option>
   </component>
@@ -66,11 +67,6 @@
             <path>
               <item name="Switch" type="b2602c69:ProjectViewProjectNode" />
               <item name="Switch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Switch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Switch" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Switch" type="b2602c69:ProjectViewProjectNode" />
@@ -108,7 +104,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NumberInWord">
+  <component name="RunManager" selected="Application.NumberOfDaysInMonth">
     <configuration name="DayOfTheWeek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.alexanderschelchere.DayOfTheWeek" />
       <module name="Switch" />
@@ -136,13 +132,25 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="NumberOfDaysInMonth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alexanderschelchere.NumberOfDaysInMonth" />
+      <module name="Switch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alexanderschelchere.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.DayOfTheWeek" />
       <item itemvalue="Application.NumberInWord" />
+      <item itemvalue="Application.NumberOfDaysInMonth" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberOfDaysInMonth" />
         <item itemvalue="Application.NumberInWord" />
         <item itemvalue="Application.DayOfTheWeek" />
         <item itemvalue="Application.Main" />
@@ -240,8 +248,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/alexanderschelchere/NumberInWord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        <state relative-caret-position="269">
+          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/alexanderschelchere/NumberOfDaysInMonth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
