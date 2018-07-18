@@ -15,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="IntEqualityPrinter.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/IntEqualityPrinter.java">
+      <file leaf-file-name="PlayingCat.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/PlayingCat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="468">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -39,6 +39,7 @@
         <option value="$PROJECT_DIR$/src/AreaCalculator.java" />
         <option value="$PROJECT_DIR$/src/MinutesToYearsDaysCalculator.java" />
         <option value="$PROJECT_DIR$/src/IntEqualityPrinter.java" />
+        <option value="$PROJECT_DIR$/src/PlayingCat.java" />
       </list>
     </option>
   </component>
@@ -201,6 +202,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PlayingCat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
         </state>
       </provider>
     </entry>
