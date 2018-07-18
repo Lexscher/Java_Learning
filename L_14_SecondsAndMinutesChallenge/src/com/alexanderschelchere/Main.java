@@ -12,6 +12,8 @@ public class Main {
             // prints: 00h 40m 03s
         getDurationString(3601);
             // prints: 01h 00m 01s
+        getDurationString(40027);
+            // prints 11h 07m 07s
     }
 
     // Create a method called getDurationString with two parameters (both int), minutes and seconds.
@@ -28,18 +30,15 @@ public class Main {
     public static String getDurationString(int minutes, int seconds) {
          // Validations.
         if (minutes < 0 || seconds < 0 || seconds > 59 ) {
-            System.out.println("this is bad: " + minutes + ", " + seconds);
-            System.out.println("no");
             return "Invalid value";
         }
 
+        // Assignments
         int h = minutes / 60;
-        System.out.println(h);
         int m = minutes % 60;
-        System.out.println(m);
         int s = seconds % 60;
-        System.out.println(s);
 
+        // Bonus: Conversion into time format.
         String hr;
         String min;
         String sec;
@@ -59,10 +58,9 @@ public class Main {
             sec = "" + s;
         }
 
-            String time = hr + "h " + min + "m " + sec + "s ";
-            System.out.println(time);
-            return time;
-
+        String time = hr + "h " + min + "m " + sec + "s ";
+        System.out.println(time);
+        return time;
     }
 
     // create a 2nd method of the same name but with only one parameter, seconds.
@@ -75,13 +73,11 @@ public class Main {
         if (seconds < 0) {
             return "Invalid Value";
         }
-
+        // Assignments.
         long minutes = seconds / 60;
         long sec =  seconds % 60;
-
+        // Override method call.
         String time = getDurationString((int) minutes, (int) sec);
         return time;
-
-
     }
 }
