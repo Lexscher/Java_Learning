@@ -36,7 +36,8 @@ public class Main {
         // Assignments
         int h = minutes / 60;
         int m = minutes % 60;
-        int s = seconds % 60;
+        int s;
+        s = seconds;
 
         // Bonus: Conversion into time format.
         String hr;
