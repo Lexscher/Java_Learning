@@ -21,11 +21,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DayOfTheWeek.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/alexanderschelchere/DayOfTheWeek.java">
+      <file leaf-file-name="NumberInWord.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/alexanderschelchere/NumberInWord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="53" column="39" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
+            <state relative-caret-position="161">
+              <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -44,13 +44,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/alexanderschelchere/Main.java" />
         <option value="$PROJECT_DIR$/src/com/alexanderschelchere/DayOfTheWeek.java" />
+        <option value="$PROJECT_DIR$/src/com/alexanderschelchere/NumberInWord.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="879" />
+    <option name="x" value="631" />
     <option name="y" value="22" />
-    <option name="width" value="561" />
+    <option name="width" value="809" />
     <option name="height" value="797" />
   </component>
   <component name="ProjectView">
@@ -107,7 +108,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DayOfTheWeek">
+  <component name="RunManager" selected="Application.NumberInWord">
     <configuration name="DayOfTheWeek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.alexanderschelchere.DayOfTheWeek" />
       <module name="Switch" />
@@ -125,12 +126,24 @@
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
     </configuration>
+    <configuration name="NumberInWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alexanderschelchere.NumberInWord" />
+      <module name="Switch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alexanderschelchere.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.DayOfTheWeek" />
+      <item itemvalue="Application.NumberInWord" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberInWord" />
         <item itemvalue="Application.DayOfTheWeek" />
         <item itemvalue="Application.Main" />
       </list>
@@ -150,7 +163,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="879" y="22" width="561" height="797" extended-state="0" />
+    <frame x="631" y="22" width="809" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -166,7 +179,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13547237" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11990111" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -220,8 +233,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/alexanderschelchere/DayOfTheWeek.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="53" column="39" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
+        <state relative-caret-position="322">
+          <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/alexanderschelchere/NumberInWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
         </state>
       </provider>
     </entry>
