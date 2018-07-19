@@ -21,11 +21,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FirstLastDigitSum.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/FirstLastDigitSum.java">
+      <file leaf-file-name="EvenDigitSum.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/EvenDigitSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+            <state relative-caret-position="195">
+              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -46,6 +46,7 @@
         <option value="$PROJECT_DIR$/src/DigitSum.java" />
         <option value="$PROJECT_DIR$/src/NumberPalindrome.java" />
         <option value="$PROJECT_DIR$/src/FirstLastDigitSum.java" />
+        <option value="$PROJECT_DIR$/src/EvenDigitSum.java" />
       </list>
     </option>
   </component>
@@ -200,8 +201,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FirstLastDigitSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        <state relative-caret-position="257">
+          <caret line="25" column="54" lean-forward="true" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EvenDigitSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
         </state>
       </provider>
     </entry>
