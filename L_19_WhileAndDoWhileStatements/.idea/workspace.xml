@@ -21,11 +21,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NumberPalindrome.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/NumberPalindrome.java">
+      <file leaf-file-name="FirstLastDigitSum.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/FirstLastDigitSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+            <state relative-caret-position="311">
+              <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -45,13 +45,14 @@
         <option value="$PROJECT_DIR$/src/com/alexanderschelchere/Main.java" />
         <option value="$PROJECT_DIR$/src/DigitSum.java" />
         <option value="$PROJECT_DIR$/src/NumberPalindrome.java" />
+        <option value="$PROJECT_DIR$/src/FirstLastDigitSum.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="504" />
+    <option name="x" value="788" />
     <option name="y" value="22" />
-    <option name="width" value="936" />
+    <option name="width" value="652" />
     <option name="height" value="797" />
   </component>
   <component name="ProjectView">
@@ -92,9 +93,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NumberPalindrome">
+  <component name="RunManager" selected="Application.FirstLastDigitSum">
     <configuration name="DigitSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DigitSum" />
+      <module name="L_19_WhileAndDoWhileStatements" />
+    </configuration>
+    <configuration name="FirstLastDigitSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FirstLastDigitSum" />
       <module name="L_19_WhileAndDoWhileStatements" />
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -112,9 +117,11 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.DigitSum" />
       <item itemvalue="Application.NumberPalindrome" />
+      <item itemvalue="Application.FirstLastDigitSum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FirstLastDigitSum" />
         <item itemvalue="Application.NumberPalindrome" />
         <item itemvalue="Application.DigitSum" />
         <item itemvalue="Application.Main" />
@@ -135,7 +142,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="504" y="22" width="936" height="797" extended-state="0" />
+    <frame x="788" y="22" width="652" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -151,7 +158,7 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.097222224" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07515337" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
@@ -186,8 +193,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NumberPalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        <state relative-caret-position="170">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FirstLastDigitSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
         </state>
       </provider>
     </entry>
