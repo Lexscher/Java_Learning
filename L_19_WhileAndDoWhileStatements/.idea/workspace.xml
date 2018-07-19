@@ -21,11 +21,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SharedDigit.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SharedDigit.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SharedDigit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            <state relative-caret-position="162">
+              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LastDigitChecker.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LastDigitChecker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -48,6 +57,7 @@
         <option value="$PROJECT_DIR$/src/FirstLastDigitSum.java" />
         <option value="$PROJECT_DIR$/src/EvenDigitSum.java" />
         <option value="$PROJECT_DIR$/src/SharedDigit.java" />
+        <option value="$PROJECT_DIR$/src/LastDigitChecker.java" />
       </list>
     </option>
   </component>
@@ -222,8 +232,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SharedDigit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        <state relative-caret-position="162">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LastDigitChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
         </state>
       </provider>
     </entry>
