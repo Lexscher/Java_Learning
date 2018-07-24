@@ -21,11 +21,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FactorPrinter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FactorPrinter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FactorPrinter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+              <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PerfectNumber.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/PerfectNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -51,13 +60,14 @@
         <option value="$PROJECT_DIR$/src/LastDigitChecker.java" />
         <option value="$PROJECT_DIR$/src/GreatestCommonDivisor.java" />
         <option value="$PROJECT_DIR$/src/FactorPrinter.java" />
+        <option value="$PROJECT_DIR$/src/PerfectNumber.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="585" />
+    <option name="x" value="718" />
     <option name="y" value="22" />
-    <option name="width" value="855" />
+    <option name="width" value="722" />
     <option name="height" value="797" />
   </component>
   <component name="ProjectView">
@@ -150,7 +160,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="585" y="22" width="855" height="797" extended-state="0" />
+    <frame x="718" y="22" width="722" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -166,7 +176,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27134502" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09833795" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -258,7 +268,14 @@
     <entry file="file://$PROJECT_DIR$/src/FactorPrinter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PerfectNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
