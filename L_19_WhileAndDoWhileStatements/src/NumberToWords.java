@@ -2,20 +2,23 @@ import java.sql.SQLOutput;
 
 public class NumberToWords {
     public static void main(String[] args) {
-        // getDigitCount(0);
-        // getDigitCount(123);
-        // getDigitCount(-12);
-        // getDigitCount(5200);
+         getDigitCount(0);
+         getDigitCount(123);
+         getDigitCount(-12);
+         getDigitCount(5200);
         System.out.println("------------");
-        // reverse(-121);
-        // reverse(1212);
-        // reverse(1234);
-        // reverse(100);
+         reverse(-121);
+         reverse(1212);
+         reverse(1234);
+         reverse(100);
         System.out.println("------------");
-        // numberToWords(123);
+        numberToWords(123);
+        System.out.println("------------");
         numberToWords(1010);
-        numberToWords(1000);
-        // numberToWords(-12);
+        System.out.println("------------");
+        numberToWords(10500);
+        System.out.println("------------");
+        numberToWords(-12);
 
     }
 
@@ -35,62 +38,101 @@ public class NumberToWords {
         // How many times are we going to loop?
         int cap = getDigitCount(num);
         int length = getDigitCount(number);
-        if ( cap < length ) {
-            for (int i = length; i >= cap; i--) {
-                oneWord(0);
-            }
-        }
+
         int lastNumber;
         for (int i = 0; i < cap; i++) {
             lastNumber = num % 10;
             num /= 10;
-            oneWord(lastNumber);
+        //    oneWord(lastNumber);
+            String toWord;
+            switch (lastNumber) {
+                case 0:
+                    toWord = "Zero";
+                    break;
+                case 1:
+                    toWord = "One";
+                    break;
+                case 2:
+                    toWord = "Two";
+                    break;
+                case 3:
+                    toWord = "Three";
+                    break;
+                case 4:
+                    toWord = "Four";
+                    break;
+                case 5:
+                    toWord = "Five";
+                    break;
+                case 6:
+                    toWord = "Six";
+                    break;
+                case 7:
+                    toWord = "Seven";
+                    break;
+                case 8:
+                    toWord = "Eight";
+                    break;
+                case 9:
+                    toWord = "Nine";
+                    break;
+                default:
+                    toWord = "Invalid Number";
+                    break;
+            } // <~ Switch statement
+            System.out.println(toWord);
         }
-
-
+        if ( cap < length ) {
+            for (int i = length; i > cap; i--) {
+                // oneWord(0);
+                System.out.println("Zero");
+            }
+        }
     }
 
     // I decided to make this into it's own method.
-    public static String oneWord(int num1){
-        String toWord;
-        switch (num1) {
-            case 0:
-                toWord = "Zero";
-                break;
-            case 1:
-                toWord = "One";
-                break;
-            case 2:
-                toWord = "Two";
-                break;
-            case 3:
-                toWord = "Three";
-                break;
-            case 4:
-                toWord = "Four";
-                break;
-            case 5:
-                toWord = "Five";
-                break;
-            case 6:
-                toWord = "Six";
-                break;
-            case 7:
-                toWord = "Seven";
-                break;
-            case 8:
-                toWord = "Eight";
-                break;
-            case 9:
-                toWord = "Nine";
-                break;
-            default:
-                toWord = "Invalid Number";
-                break;
-        } // <~ Switch statement
-        System.out.println(toWord);
-        return toWord;
-    }
+        // THE USE/ADDITION OF AN EXTRA METHOD IS NOT ALLOWED
+    // sucks because this definitely made my code up top easier to read
+//    public static String oneWord(int num1){
+//        String toWord;
+//        switch (num1) {
+//            case 0:
+//                toWord = "Zero";
+//                break;
+//            case 1:
+//                toWord = "One";
+//                break;
+//            case 2:
+//                toWord = "Two";
+//                break;
+//            case 3:
+//                toWord = "Three";
+//                break;
+//            case 4:
+//                toWord = "Four";
+//                break;
+//            case 5:
+//                toWord = "Five";
+//                break;
+//            case 6:
+//                toWord = "Six";
+//                break;
+//            case 7:
+//                toWord = "Seven";
+//                break;
+//            case 8:
+//                toWord = "Eight";
+//                break;
+//            case 9:
+//                toWord = "Nine";
+//                break;
+//            default:
+//                toWord = "Invalid Number";
+//                break;
+//        } // <~ Switch statement
+//        System.out.println(toWord);
+//        return toWord;
+//    }
 
     // reverse method to help out with my numberToWords method
     // The reverse method should also reverse negative numbers.
@@ -104,8 +146,6 @@ public class NumberToWords {
 
         // reversed number
         int reversedNumber = 0;
-        System.out.println(num);
-        System.out.println("First digit of Reversed Number: " + reversedNumber);
 
         // loop to add the last digit in num to reversedNumber.
         // how many times are we looping?
@@ -115,7 +155,6 @@ public class NumberToWords {
         while (count < peak) {
             reversedNumber *= 10;
             reversedNumber += (num % 10);
-            System.out.println(num + " % 10 = " + reversedNumber);
             num /= 10;
             count++;
         }
@@ -124,7 +163,6 @@ public class NumberToWords {
         if (number < 0) {
             reversedNumber *= -1;
         }
-        System.out.println("REVERSED number: " + reversedNumber);
         return reversedNumber;
 
     }
@@ -135,20 +173,16 @@ public class NumberToWords {
     public static int getDigitCount(int number) {
         // verification
         if (number < 0) {
-            System.out.println("NOT VALID");
             return -1;
         }
         // initialize counter.
         int digitCount = 0;
         // let's increment with conditions.
-        System.out.println("Number before loop: " + number);
         while (number / 10 >= 1) {
             digitCount++;
             number /= 10;
-            System.out.println("Number: " + number);
         }
         digitCount++;
-        System.out.println("Final Digit Count: " + digitCount);
         return digitCount;
     }
 }
