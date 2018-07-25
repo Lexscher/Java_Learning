@@ -1,13 +1,15 @@
 public class LargestPrime {
     public static void main(String[] args) {
         getLargestPrime(21);
-        System.out.println("-----");
+
         getLargestPrime(217);
-        System.out.println("-----");
+
         getLargestPrime(0);
-        System.out.println("-----");
+
         getLargestPrime(45);
-        System.out.println("-----");
+
+        getLargestPrime(7);
+
         getLargestPrime(1);
     }
 
@@ -17,6 +19,7 @@ public class LargestPrime {
     public static int getLargestPrime(int number) {
         // validation
         if (number <= 1) {
+            System.out.println("Invalid Input");
             return -1;
         }
 
@@ -26,9 +29,8 @@ public class LargestPrime {
             // conditional inside a while loop for finding if current index
             // divided by our count number has no remainder.
             while (count < i + 1) {
-                System.out.println(count + " and " + i + " and " + i / count);
                 if (i % count == 0 && isItPrime(count)) {
-                    System.out.println(count + " and " + i + " and " + i / count);
+                    System.out.println(i + " divided by " + i / count + " = " + count);
                     return count;
                 }
                 count--;
