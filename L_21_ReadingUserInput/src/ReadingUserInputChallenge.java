@@ -14,10 +14,10 @@ public class ReadingUserInputChallenge {
             if (hasNextInt) {
                 sum += scanner.nextInt();
                 scanner.nextLine();
+                count++;
             } else {
                 System.out.println("Invalid Number");
             }
-            count++;
         }
 
         System.out.println(sum);
