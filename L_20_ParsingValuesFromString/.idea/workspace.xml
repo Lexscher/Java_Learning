@@ -21,11 +21,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FlourPacker.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FlourPacker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FlourPacker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+            <state relative-caret-position="162">
+              <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LargestPrime.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LargestPrime.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -44,6 +53,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/alexanderschelchere/Main.java" />
         <option value="$PROJECT_DIR$/src/FlourPacker.java" />
+        <option value="$PROJECT_DIR$/src/LargestPrime.java" />
       </list>
     </option>
   </component>
@@ -91,9 +101,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FlourPacker">
+  <component name="RunManager" selected="Application.LargestPrime">
     <configuration name="FlourPacker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FlourPacker" />
+      <module name="L_20_ParsingValuesFromString" />
+    </configuration>
+    <configuration name="LargestPrime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LargestPrime" />
       <module name="L_20_ParsingValuesFromString" />
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -106,9 +120,11 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.FlourPacker" />
+      <item itemvalue="Application.LargestPrime" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LargestPrime" />
         <item itemvalue="Application.FlourPacker" />
         <item itemvalue="Application.Main" />
       </list>
@@ -177,8 +193,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FlourPacker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        <state relative-caret-position="162">
+          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LargestPrime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
         </state>
       </provider>
     </entry>
